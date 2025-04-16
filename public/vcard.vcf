@@ -1,0 +1,16 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Chávez Islas;Jair;;;
+FN:Jair Chávez Islas
+TITLE:Desarrollador Web Full Stack
+TEL;TYPE=CELL:+524622459648
+EMAIL:chamaco_03@hotmail.es
+URL:https://jair.passify.tech
+ADR;TYPE=WORK:;;Irapuato;Guanajuato;México;;;
+NOTE:Desarrollador web y diseñador UX/UI con pasión por crear experiencias digitales memorables.
+PHOTO;ENCODING=b;TYPE=JPEG:[Aquí puedes poner datos de imagen codificada en Base64 si lo deseas]
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/jair-ch%C3%A1vez-islas-a4283820a/
+X-SOCIALPROFILE;TYPE=github:https://github.com/Jair0305
+X-SOCIALPROFILE;TYPE=twitter:https://x.com/Jair65224491
+X-SOCIALPROFILE;TYPE=instagram:https://www.instagram.com/jairci305/
+END:VCARD

@@ -1,6 +1,32 @@
+"use client"
+
 import Link from "next/link"
+import { usePathname } from "next/navigation"
 
 export function SiteFooter() {
+  const pathname = usePathname()
+  const isContactPage = pathname === "/contacto"
+  
+  if (isContactPage) {
+    return (
+      <footer className="w-full">
+        <div className="w-full border-t"></div>
+        <div className="container px-4 mx-auto">
+          <div className="py-4 flex flex-col sm:flex-row justify-center sm:justify-between items-center gap-2">
+            <div className="text-sm text-muted-foreground">
+              &copy; {new Date().getFullYear()} Jair Chávez Islas. Todos los derechos reservados.
+            </div>
+            <div className="text-sm text-muted-foreground">
+              <span>Hecho con </span>
+              <span className="text-red-500">❤️</span>
+              <span> en México</span>
+            </div>
+          </div>
+        </div>
+      </footer>
+    )
+  }
+  
   return (
     <footer className="border-t bg-background w-full">
       <div className="container px-4 mx-auto py-8">
@@ -66,7 +92,7 @@ export function SiteFooter() {
       <div className="container px-4 mx-auto">
         <div className="py-4 flex flex-col md:flex-row justify-between items-center gap-2">
           <div className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} Tu Nombre. Todos los derechos reservados.
+            &copy; {new Date().getFullYear()} Jair Chávez Islas. Todos los derechos reservados.
           </div>
           <div className="text-sm text-muted-foreground">
             <span>Hecho con </span>
